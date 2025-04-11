@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nossa História 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button onclick="tocarMusica()" class="musica-btn">▶️</button>
+<button onclick="pausarMusica()" class="musica-btn">⏸️</button>
+
+<audio id="musica" loop>
+  <source src="assets/i love.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  function tocarMusica() {
+    document.getElementById('musica').play();
+  }
+
+  function pausarMusica() {
+    document.getElementById('musica').pause();
+  }
+</script>
+  <header>
+    <h1>✨ Nossa História ✨</h1>
+    <p>Escolha um momento especial 💌</p>
+  </header>
+
+  <section class="timeline">
+    <a class="event-button" href="conversa.html">💬 Primeira Conversa</a>
+    <a class="event-button" href="chamada.html">📞 Primeira Chamada</a>
+    <a class="event-button" href="namoro.html">💗 Pedido de Namoro</a>
+    <a class="event-button" href="mensagem.html">🔐 Mensagem Secreta</a>
+    <a class="event-button" href="galeria.html">📸 Galeria de Fotos</a>
+    <a class="event-button" href="cartas.html">💌 Cartinhas para Você...</a>
+  </section>
+
+  <footer>
+    Feito com amor por Kitty 💘
+  </footer>
+</body>
+</html>

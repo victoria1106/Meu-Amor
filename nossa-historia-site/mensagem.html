@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>💌 Mensagem Secreta</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function verificarSenha() {
+      const senha = document.getElementById("senha").value;
+      const mensagem = document.getElementById("mensagem");
+
+      if (senha === "Kitty") {
+        mensagem.style.display = "block";
+      } else {
+        alert("Senha incorreta 😢");
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="mensagem-container">
+    <div class="emoji">💌🔐</div>
+    <h1>Mensagem Secreta</h1>
+    <p>Digite a senha pra desbloquear uma surpresinha 💖</p>
+    <input type="password" id="senha" placeholder="Digite a senha..." />
+    <br />
+    <button onclick="verificarSenha()">Abrir 💖</button>
+
+    <div id="mensagem" class="mensagem-secreta">
+      Você chegou até aqui porque é tudo pra mim.  
+      Te amo mais do que palavras podem dizer 💗✨
+    </div>
+
+    <a class="event-button" href="index.html" style="margin-top: 2rem; display: inline-block;">⬅️ Voltar</a>
+  </div>
+</body>
+</html>

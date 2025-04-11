@@ -1,0 +1,162 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #863291, #fff);
+  color: #000000;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #863291;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.event-button {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  background-color: #8e3791;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: background 0.3s;
+}
+
+.event-button:hover {
+  background-color: #ff1493;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #590b60;
+}
+
+.musica-btn {
+  background-color: #81237a;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.musica-btn:hover {
+  background-color: #852081;
+}
+
+.carta {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 1rem 0;
+}
+
+.mensagem-container {
+  max-width: 500px;
+  margin: 4rem auto;
+  background: #fff0fb;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mensagem-container h1 {
+  font-size: 2rem;
+  color: #8e3791;
+  margin-bottom: 1rem;
+}
+
+.mensagem-container input {
+  padding: 0.7rem;
+  border: 2px solid #d18bc5;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.mensagem-container button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #8e3791;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.mensagem-container button:hover {
+  background-color: #ff1493;
+}
+
+.mensagem-secreta {
+  margin-top: 2rem;
+  display: none;
+  background: #ffe0f0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  color: #5c104e;
+}
+
+.emoji {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.conversa-container {
+  max-width: 600px;
+  margin: 4rem auto;
+  background: #f8efff;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.emoji {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.conversa-container h1 {
+  color: #7e3bb5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.texto {
+  font-size: 1.2rem;
+  color: #4b1363;
+  margin: 1rem 0;
+  line-height: 1.6;
+}

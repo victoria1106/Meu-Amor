@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galeria 📸</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .galeria img {
+      width: 100%;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>📸 Nossa Galeria</h1></header>
+  <section class="galeria">
+    <img src="foto1.jpg" alt="Momento 1" />
+    <img src="foto2.jpg" alt="Momento 2" />
+    <!-- Adicione mais imagens -->
+  </section>
+  <a class="event-button" href="index.html">⬅️ Voltar</a>
+</body>
+</html>
